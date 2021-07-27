@@ -21,6 +21,9 @@
     --container-color: #FFF;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+    --portofolio-title-color : hsl(var(--hue-color), 8%, 15%);
+    --portofolio-texte-color : hsl(var(--hue-color), 8%, 45%);
+
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
@@ -72,11 +75,13 @@ body.dark-theme {
   --first-color-second: hsl(var(--hue-color), 4%, 17%);
   --title-color: hsl(var(--hue-color), 8%, 95%);
   --text-color: hsl(var(--hue-color), 8%, 95%);
-  --input-color: hsl(var(--hue-color), 29%, 96%);
+  --input-color: hsl(var(--hue-color), 5%, 55%);
   --body-color: hsl(var(--hue-color), 28%, 0%);
   --container-color: hsl(var(--hue-color), 29%, 96%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 98%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 96%);
+  --portofolio-title-color : hsl(var(--hue-color), 5%, 0%);
+  --portofolio-texte-color : hsl(var(--hue-color), 5%, 30%);
 }
 
 /*========== Button Dark/Light ==========*/
@@ -696,10 +701,12 @@ img {
 .portofolio__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
+  color: var(--portofolio-title-color);
 }
 
 .portfolio__description {
   margin-bottom: var(--mb-0-75);
+  color: var(--portofolio-texte-color);
 }
 
 .portofolio__button:hover .button__icon {
